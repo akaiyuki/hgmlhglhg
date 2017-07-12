@@ -6,7 +6,7 @@ package com.kmcbookingav.av.dev.core;
 
 public class KConfiguration {
 
-    public static String liveUrl = "http://av-core-booking-api.herokuapp.com/";
+    public static String liveUrl = "http://sample-av-kmc.herokuapp.com/";
 
 
 }

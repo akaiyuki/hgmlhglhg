@@ -57,7 +57,7 @@ public class ScheduleNowFragment extends Fragment {
         editLocation.setTextColor(Color.parseColor(KSharedPreferences.getSomeStringValue(AppController.getInstance(), SharedPreferencesObject.text_color)));
         editLocation.setHintTextColor(Color.parseColor(KSharedPreferences.getSomeStringValue(AppController.getInstance(), SharedPreferencesObject.text_color)));
         editCapacity.setTextColor(Color.parseColor(KSharedPreferences.getSomeStringValue(AppController.getInstance(), SharedPreferencesObject.text_color)));
-        editCapacity.setTextColor(Color.parseColor(KSharedPreferences.getSomeStringValue(AppController.getInstance(), SharedPreferencesObject.text_color)));
+        editCapacity.setHintTextColor(Color.parseColor(KSharedPreferences.getSomeStringValue(AppController.getInstance(), SharedPreferencesObject.text_color)));
         editDate.setHintTextColor(Color.parseColor(KSharedPreferences.getSomeStringValue(AppController.getInstance(), SharedPreferencesObject.text_color)));
         editDate.setTextColor(Color.parseColor(KSharedPreferences.getSomeStringValue(AppController.getInstance(), SharedPreferencesObject.text_color)));
         editTime.setHintTextColor(Color.parseColor(KSharedPreferences.getSomeStringValue(AppController.getInstance(), SharedPreferencesObject.text_color)));
