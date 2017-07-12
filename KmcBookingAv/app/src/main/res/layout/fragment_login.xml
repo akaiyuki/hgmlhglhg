@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kmcbookingav.av.dev.fragment.LoginFragment">
+
+    <ImageView
+        android:id="@+id/imgbackground"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_logo" />
+
+    <EditText
+        android:id="@+id/editusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_small_box"
+        android:hint="Username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColorHint="@color/colorTextHintColor" />
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_small_box"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColorHint="@color/colorTextHintColor" />
+
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="@color/colorTextColor" />
+
+
+</LinearLayout>

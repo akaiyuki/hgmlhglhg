@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kmcbookingav.av.dev.fragment.ScheduleNowFragment">
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Schedule Now"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/editlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_small_box"
+        android:hint="Location"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editcapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_small_box"
+        android:hint="Capacity"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_small_box"
+        android:hint="Date"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edittime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_small_box"
+        android:hint="Time"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
